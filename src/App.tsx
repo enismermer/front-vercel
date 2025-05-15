@@ -8,7 +8,7 @@ function App() {
   const [backendMessage, setBackendMessage] = useState("")
 
   useEffect(() => {
-    fetch('https://backend-render-xjlv.onrender.com/')
+    fetch('https://backend-render-xjlv.onrender.com/tata')
       .then((response) => response.json())
       .then((data) => {
         setBackendMessage(data.message)
